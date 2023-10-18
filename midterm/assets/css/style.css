@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(44, 0, 18, 0.8); ;
+
+}
+header {
+    width: auto;
+    height: 300px;
+    background-image: url(../img/ethiopiaheader.jpeg);
+    background-position-y: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* index.html */
+#title{
+    font-family:'Oregano', serif;
+    color: white;
+    font-size: 80px;
+    letter-spacing: 7px;
+}
+
+.img-overlay-heading {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(44, 0, 18, 0.5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.index-content {
+    color: #E6E6E6;
+}
+
+#nav-bar {
+    background-color: #48252B;
+    height: 70px;
+    text-align: center;
+    
+}
+.block {
+    display: inline-block;
+    background-color: #6A1E1E;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Outfit', serif;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    overflow:hidden;
+}
+
+#nav-bar .block {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.image-block {
+    display: inline-block;
+    width: 200px;
+    position:relative;
+    margin-left: 2px;
+}
+.image-block img{
+    width: 100%;
+    height: 100%;
+}
+.about {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 80px;
+    font-family: 'Outfit', serif;
+    line-height: 26px;
+
+}
+.about-column {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 420px;
+    height: 450px;
+    text-align: left;
+    
+}
+
+#info-blocks {
+    text-align: center;
+    
+    font-family: 'Outfit', serif;
+}
+
+.info-column {
+    display: inline-block;
+    
+    width: 20%;
+    height:350px;
+    padding: 30px;
+    background-color: #48252B;
+    
+}
+
+/* menu.html */
+
+.menu-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    color: white;
+    font-family: 'Outfit', serif;
+    
+}
+
+.menu-content .block {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 50%;
+    display: block;
+
+}
+
+.menu-item-block {
+    background-color: #48252B;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.menu-column {
+    text-align: left;
+    display: inline-block;
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.food-name {
+    font-size: 22px;
+    margin-top: 18px;
+    
+}
+
+.food-info {
+    opacity: .6;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.food-price {
+    margin-top: 60%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

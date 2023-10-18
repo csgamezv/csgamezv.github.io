@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(44, 0, 18, 0.8); ;
+
+}
+header {
+    width: auto;
+    height: 300px;
+    background-image: url(../img/ethiopiaheader.jpeg);
+    background-position-y: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#title{
+    font-family:'Oregano', serif;
+    color: white;
+    font-size: 80px;
+}
+
+.img-overlay-heading {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(44, 0, 18, 0.5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.content {
+    width: 800px;
+    /* PROBLEM 2: Align the page content to the center of the screen */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333;
+    color: #E6E6E6;
+
+}
+
+#nav-bar {
+    align-items: center;
+    background-color: #48252B;
+    height: 70px;
+    text-align: center;
+    
+}
+.block {
+    display: inline-block;
+    background-color: #6A1E1E;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Outfit', serif;
+    color: white;
+}
+
+#nav-bar.block {
+    padding-left: 100px;
+}
+
+
+
+#other-posts {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.image-card, .image-card-color-overlay {
+    width: 380px;
+    height: 200px;
+}
+
+.image-card {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin-right: 40px;
+    /* PROBLEM 3: Give .image-card the appropriate position type */
+    position: relative;
+
+}
+
+.image-card:last-child {
+    margin-right: 0;
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.image-card-color-overlay {
+    position: absolute;
+    /* PROBLEM 4: Move the color overlay to cover the image properly */
+    top: 0px;
+    left: 0px;
+    /* PROBLEM 5: What should the opacity be when there is no hover? */
+    opacity: 0.0;
+    transition: 0.3s;
+    background-color: navy;
+}
+
+.image-card:hover .image-card-color-overlay {
+    /* PROBLEM 5: Pick an opacity for the blue hover effect */
+    opacity: 0.3;
+}
+
+.image-card-text {
+    /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
+    position:absolute;
+    top: 162px;
+    left: 20px;
+    color: white;
+}
+
+
+/* PROBLEM 7: Improve the typography and colors of this page! */
+
+a:link {
+    text-decoration: underline;
+    color: #E6E6E6;
+    
+}
+
+h1 {
+    font-family: 'Roboto Condensed', serif;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', serif;
+}
+
+p {
+    font-family: serif;
+    line-height: 25px;
+}
+
+.image-card-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
